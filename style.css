@@ -82,7 +82,6 @@ nav a {
 .variants img {
     height: 10vh;
     float: left;
-    background-color: rgba(255, 255, 255, 0.897);
     border-radius: 20%;
     margin-left: 1vw;
     margin-top: 1vh;
@@ -119,18 +118,18 @@ nav a {
 
 /*Variant Colors*/
 #black {
-    background-image: linear-gradient(52deg, #535d62 30%, #040e13);
+    background-image: linear-gradient(52deg, #535d62 20%, #040e13);
     color: white;
 }
 
 #whiteSmoke {
-    background-image: linear-gradient(52deg, #dddbdb 30%, #a5a4a4);
+    background-image: linear-gradient(52deg, #dddbdb 20%, #a5a4a4);
     color: black;
 }
 
 #blue {
-    background-image: linear-gradient(52deg, #58b4eb 30%, #02669d);
-    color: black;
+    background-image: linear-gradient(52deg, #4d9bc9 20%, #025683);
+    color: white;
 }
 
 #diamond {
