@@ -1,0 +1,172 @@
+
+body  {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden; /*disables side scrolling*/
+}
+
+.container {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 230vh;
+    width: 100vw;
+
+    background-image: linear-gradient(52deg, #535d62 30%, #040e13);
+    color: white;
+}
+
+
+/*NavBar Section*/
+nav {
+    text-align: center;
+}
+nav p {
+    display:inline-block;
+    font-size: 2vh;
+    margin: 2vh;
+}
+
+nav ul {
+    list-style: none;
+    text-align-last: right;
+    margin: 2vh;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-family: Candara, Arial, sans-serif;
+    font-size: 2vh;
+    text-decoration: none;
+    color: white;
+    margin: 2vw;
+}
+
+/*End NavBar Section*/
+
+
+/*Hero Section*/
+#hero {
+    font-size: 3vh;
+    font-family: "Arial Black", Arial, sans-serif;
+    text-align: center;
+    margin-top: 10vh;
+    letter-spacing: 4px;
+}
+/*End Hero Section*/
+
+
+/*Headphone Image*/
+#headphoneImg {
+    text-align: center;
+}
+
+#mainHeadphoneImg {
+    height: 60vh;
+}
+/*End Headphone Image*/
+
+
+/*Headphone Variants                           */
+.variants {
+    display: inline-block;
+    height: 13vh;
+    margin-top: 10vh;
+}
+
+.variants img {
+    height: 10vh;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 20%;
+    margin-left: 1vw;
+    margin-top: 1vh;
+}
+/*End Headphone Variants*/
+
+
+/*About Section*/
+#aboutDiv {
+    border-top: solid;
+    width: 80vw;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    font-size: 3vh;
+    font-family: "Trebuchet MS", Arial, sans-seriff;
+}
+
+#points {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 10vh;
+    column-gap: 5vw;
+    font-size: 2.5vh;
+    text-align: center;
+    font-family: "Trebuchet MS";
+    text-decoration: underline;
+}
+/*End About Section*/
+
+
+/*Variant Colors*/
+#black {
+    background-image: linear-gradient(52deg, #535d62 30%, #040e13);
+    color: white;
+}
+
+#whiteSmoke {
+    background-image: linear-gradient(52deg, #dddbdb 30%, #a5a4a4);
+    color: black;
+}
+
+#blue {
+    background-image: linear-gradient(52deg, #58b4eb 30%, #02669d);
+    color: black;
+}
+
+#diamond {
+    background-image: linear-gradient(52deg, #e0e0e0 20%, #dbd9b0);
+    color: black;
+}
+
+#sandstone {
+    background-image: linear-gradient(52deg,#efdec9 20%, #afa0a5);
+    color: black;
+}
+
+#deepPlum {
+    background-image: linear-gradient(52deg,#a35c80 20%, #5e2634);
+    color: white;
+}
+/*End Variant Colors*/
+
+
+/*Footer*/
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 10vh;
+    border-top: solid;
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 2vh;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footer a {
+    color: white;
+}
+/*End Footer*/
